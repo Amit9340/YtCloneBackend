@@ -5,12 +5,15 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "Amit Sharma",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
   }
 }
